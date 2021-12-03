@@ -1,13 +1,14 @@
-import Wrapper from "./components/Wrapper";
 import Hero from "./components/Hero";
 import "./App.css";
+import Projects from "./components/Projects";
 
 function App() {
   return (
     <div className="App">
-      <Wrapper>
+      <div className="App-content">
         <Hero />
-      </Wrapper>
+        <Projects />
+      </div>
     </div>
   );
 }

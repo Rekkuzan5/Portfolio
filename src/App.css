@@ -44,3 +44,9 @@ h1 {
   padding: 0;
   box-sizing: border-box;
 }
+
+.App-content {
+  max-width: 1530px;
+  text-align: center;
+  margin: 0 auto;
+}
